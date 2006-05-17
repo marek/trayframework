@@ -100,7 +100,7 @@ BEGIN
             VALUE "FileDescription", "Tray Application Framework Sample"
             VALUE "FileVersion", "1, 0, 0, 1"
             VALUE "InternalName", "trayframework"
-            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "LegalCopyright", "Copyright (C) 2004-2005"
             VALUE "OriginalFilename", "trayframework.exe"
             VALUE "ProductName", "Tray Application Famework"
             VALUE "ProductVersion", "1, 0, 0, 1"
@@ -126,7 +126,7 @@ FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,95,108,46,14
     GROUPBOX        "Info",IDC_STATIC,7,7,214,98
-    LTEXT           "cccTray v1.0.0\nCompact Check Count Tray Utility for Outlook Express\n©2005 Marek Kudlacz\n[ Kudlacz.com ]",
+    LTEXT           "trayframework v1.00\nFramework for creating system tray applications\n©2004-2005 Marek Kudlacz\n[ Kudlacz.com ]",
                     IDC_STATIC,14,18,200,81,SS_SUNKEN,WS_EX_STATICEDGE
 END
 
