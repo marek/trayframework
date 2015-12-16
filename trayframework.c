@@ -1,12 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////
-//
-// trayframework.c -- Framework for creating tray applications
-// v1.00
-// Written by Marek Kudlacz
-// Copyright (c)2004-2005
-//
-/////////////////////////////////////////////////////////////////////////////
-
 // Headers
 #include <windows.h>
 #include <tchar.h>
@@ -25,8 +16,6 @@ HWND hWnd;
 HINSTANCE hInst;
 NOTIFYICONDATA structNID;
 BOOL Enabled;
-
-/* ================================================================================================================== */
 
 /*
 Name: ... AboutDlgProc(...)
@@ -138,8 +127,6 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
 	}
 	return 0;		// Return 0 = Message successfully proccessed
 }
-
-/* ================================================================================================================== */
 
 /*
 Name: ... WinMain(...)
